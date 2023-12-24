@@ -10,4 +10,5 @@ http.createServer(function(request,responce){//call back function
     
 }).listen(3000,()=>{
     console.log("sever up at port 9000")
-})
+})//hyper text transfer protocol-http
+//HTTP Methods-psot,get,put,delete
