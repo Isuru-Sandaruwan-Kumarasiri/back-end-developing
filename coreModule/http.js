@@ -6,4 +6,8 @@ http.createServer(function(request,responce){//call back function
     // responce.end()
             //responce.end("MIHIYA")
             responce.end("<h1>MIHIYA</h1>")   //get the html output
-}).listen(3000)
+
+    
+}).listen(3000,()=>{
+    console.log("sever up at port 9000")
+})
